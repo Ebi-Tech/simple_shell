@@ -1,12 +1,12 @@
-.TH "HOLBISHELL" 1 "28 August 2019" "GNU Holbishell 0.1" "General Commands Manual "
+.TH "SIMPLESHELL" 1 "08 August 2022" "GNU ALX AFRICA" "General Commands Manual "
 .SH NAME
-.B Simple Holbishell
+.B Simple shell
 .SH SYNOPSIS
-.B #include "holberton.h"
+.B #include "main.h"
 .TP
 .B ./hsh -> executes
 .SH DESCRIPTION
-\fBSimple Holbishell\fR is a prorgramm that provides an interface for users to get access to the kernel's services.
+\fBSimple shell\fR is a prorgramm that provides an interface for users to get access to the kernel's services.
 This shell works as a command interpreter in two modes:
 .TP
 .B Interactive Mode
@@ -17,7 +17,7 @@ In this mode, the shell takes the commands from the standard input, executes the
 .TP
 This mode reads the commands from a file sent thru a pipe, the commands will be executed and the shell won't ask for more.
 .TP
-The Holbishell is fully written in C programming language, it uses systemcalls and regular C functions.
+The shell is fully written in C programming language, it uses systemcalls and regular C functions.
 .SH ARGUMENTS
 This Shell does not support arguments.
 .SH INVOCATION
@@ -43,7 +43,7 @@ A \fB simple command\fR is a sequence of optional variable assignments followed 
 .TP
 The return value of a \fBsimple command\fR is its exit status, for this particular Shell, the signal CTRL + D has been supressed.
 .SH SHELL VARIABLES
-The next variables are set by the Holbishell.
+The next variables are set by the shell.
 .TP
 .B OLDPWD
 .TP
@@ -61,7 +61,7 @@ After a command has been split into words, if it results in a simple command and
 
 If the command name contains no slashes, the shell attempts to locate it. If there exists a shell function by that name, that function is invoked. If the name does not match a function, the shell searches for it in the list of shell builtins. If a match is found, that builtin is invoked.
 
-If the name is neither a shell function nor a builtin, and contains no slashes, the Holbishell searches each element of the PATH for a directory containing an executable file by that name
+If the name is neither a shell function nor a builtin, and contains no slashes, the shell searches each element of the PATH for a directory containing an executable file by that name
 
 .SH ENVIROMENT
 When a program is invoked it is given an array of strings called the \fB environment\fR. This is a list of \fB name-value pairs\fR, of the form \fB name=value.\fR
@@ -75,7 +75,7 @@ The exit status of an executed command  is  the value returned by the waitpid sy
 
 Under certain circumstances, the shell will use special  values  to  indicate specific failure modes.
 
-For the Holbishell's purposes, a command which exits with a zero exit status has succeeded.
+For the shell's purposes, a command which exits with a zero exit status has succeeded.
 If  a  command  is  not  found, the child process created to execute it returns a status of 127.
 
 Shell builtin commands return a status of 0 (true) if successful, and non-zero(false) if an  error occurred  while execution.
@@ -85,19 +85,19 @@ Shelley itself returns the exit status of the last command executed, unless a sy
 [\fBcommand\fP] [\fIarguments\fP]
 .RS
 .IP "\fBcd\fP [\fIdir\fP]"
-\- Change the current directory to \fIdir\fP.  if dir is not given, the Holbishell will take the value of the HOME environ-value as default. Given "-", the Shell will go to the OLDPWD address into the enviroment.
+\- Change the current directory to \fIdir\fP.  if dir is not given, the shell will take the value of the HOME environ-value as default. Given "-", the Shell will go to the OLDPWD address into the enviroment.
 .IP "\fBexit\fP [\fIstatus\fP]"
 \- The Holbishell will exit with a status of \fIstatus\fP.  If no status is given, the exit status is that of the last command executed.
 .IP "\fBenv\fP"
 \- Displays all the environmental variables.
 .RE
 .SH SIGNALS
-The SIG_INT (CTRL+D) signal is omitted for the Holbishell, is it not possible to end the process thru it.
+The SIG_INT (CTRL+D) signal is omitted for the shell, is it not possible to end the process thru it.
 .SH SEE ALSO
 \fIREADME.md\fP - https://github.com/joshuaciencia/simple_shell
 .SH BUGS
 No known bugs yet.
 .SH AUTHOR
-Joshua Hernadez =^_^= email: 884@holbertonschool.com
+Ofili Obianuju email: obianujuofili03@gmail.com
 .PP
-Daniela Gómez /|\\ ^._.^/ |\\ email: 909@holbertonschool.com
+Divine Ifechukwude email: difebi14@gmail.com
