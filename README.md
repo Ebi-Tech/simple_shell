@@ -1,4 +1,4 @@
-# shellby - Simple Shell :shell:
+# shellby - Simple Shell by Divine Ifechukwude and Ofili Obianuju :shell:
 
 A simple UNIX command interpreter written as part of the low-level programming and algorithm track at Holberton School.
 
