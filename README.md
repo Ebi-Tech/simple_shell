@@ -284,7 +284,7 @@ $
 ## Authors :black_nib:
 
 * Divine Ebube Ifechukwude <[Ebi-Tech](https://github.com/Ebi-Tech)>
-* Ofili Obianuju <[fave_Kandie](https://github.com/fave_Kandie)>
+* Ofili Obianuju <[faveKandie](https://github.com/faveKandie)>
 
 ## License :lock:
 
