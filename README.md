@@ -1,6 +1,6 @@
 # shellby - Simple Shell by Divine Ifechukwude and Ofili Obianuju :shell:
 
-A simple UNIX command interpreter written as part of the low-level programming and algorithm track at Holberton School.
+A simple UNIX command interpreter written as part of the low-level programming and algorithm track at ALX.
 
 ## Description :speech_balloon:
 
@@ -62,7 +62,7 @@ The current working directory as set by the **cd** command.
 
 ```
 $ echo "echo $PWD" | ./shellby
-/home/vagrant/holberton/simple_shell
+/home/vagrant/alx/simple_shell
 ```
 
 #### OLDPWD
@@ -70,7 +70,7 @@ The previous working directory as set by the **cd** command.
 
 ```
 $ echo "echo $OLDPWD" | ./shellby
-/home/vagrant/holberton/printf
+/home/vagrant/alx/printf
 ```
 
 #### PATH
@@ -118,7 +118,7 @@ $
 Example:
 ```
 $ echo "echo $PWD" | ./shellby
-/home/vagrant/holberton/simple_shell
+/home/vagrant/alx/simple_shell
 ```
 
 #### $?
@@ -201,13 +201,13 @@ Example:
 ```
 $ ./shellby
 $ pwd
-/home/vagrant/holberton/simple_shell
+/home/vagrant/alx/simple_shell
 $ cd ../
 $ pwd
-/home/vagrant/holberton
+/home/vagrant/alx
 $ cd -
 $ pwd
-/home/vagrant/holberton/simple_shell
+/home/vagrant/alx/simple_shell
 ```
 
 #### alias
@@ -283,8 +283,8 @@ $
 
 ## Authors :black_nib:
 
-* Isaac Baccah <[isaacbaccah](https://github.com/isaacbaccah)>
-* Liliyosa <[liliyosa](https://github.com/liliyosa)>
+* Divine Ebube Ifechukwude <[Ebi-Tech](https://github.com/Ebi-Tech)>
+* Ofili Obianuju <[faveKandie](https://github.com/fave_Kandie)>
 
 ## License :lock:
 
